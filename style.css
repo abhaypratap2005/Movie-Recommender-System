@@ -4,10 +4,12 @@
 }
 
 body {
-  background: url('https://wallpaperaccess.com/full/900250.jpg') no-repeat center center fixed;
+  background: url('https://wallpaperaccess.com/full/22917.jpg')
+   no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
+  background-size: cover;
 }
 
 body::before {
@@ -38,16 +40,18 @@ h1 {
   margin: 0;
   font-size: 3rem;
   text-align: center;
-  color: #1c1c1e;
+  color: #efeff6;
 }
 
-h2, p, label {
+h2,  label {
   background: transparent;
-  color: #1c1c1e; 
+  color: #dedef5; 
   text-align: center;
 }
 p{
  font-size: 1.3rem ;
+ color:#ddd;
+ text-align: center;
 }
 
 .preferences-box, .section, .form-container {
@@ -103,7 +107,7 @@ p{
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  color: #080e27;
+  color: #dadce3;
   
 }
 
@@ -133,11 +137,18 @@ p{
 .movie-card {
   display: flex;
   background: #f9f9f9;
+
+  color: #000000;
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: box-shadow 0.3s ease;
+}
+
+.movie-card p {
+  color: #555;
+  text-align: left;
 }
 
 .movie-card:hover {
