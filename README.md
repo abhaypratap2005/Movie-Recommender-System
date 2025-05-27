@@ -1,0 +1,1 @@
+This is a frontend project for a Movie Recommender System. The project includes a responsive user interface created with HTML, CSS, and JavaScript. It is designed to display movie recommendations in a clean and interactive layout.
